@@ -11,9 +11,20 @@ namespace Lab4._2
             Console.WriteLine("Введите B:");
             double b = Convert.ToDouble(Console.ReadLine());
         }
+
         static double pls(double A, double B)
         {
             return A + B;
+        }
+
+        static double div(double A, double B)
+        {
+            return A / B;
+        }
+        static double multiply(double A, double B)
+        {
+            return A * B;
+          
         }
     }
 }
